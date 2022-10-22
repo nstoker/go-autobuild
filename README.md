@@ -137,6 +137,8 @@ Contains the application version number definition.
 
 Contains TLS certificates.
 
+This folder is excluded from git. You need a suitable certificate (`cert.pem` and `key.pem`) in order to proceed.
+
 Configuration settings
 ----------------------
 
