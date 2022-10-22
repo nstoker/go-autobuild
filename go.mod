@@ -2,6 +2,11 @@ module github.com/nstoker/go-autobuild
 
 go 1.18
 
+replace (
+	github.com/coreos/bbolt => go.etcd.io/bbolt v1.3.5
+	go.uber.org/atomic => github.com/uber-go/atomic v1.5.0
+)
+
 require (
 	github.com/alexedwards/flow v0.0.0-20220421161004-151985479ec9
 	github.com/fatih/color v1.7.0
@@ -24,7 +29,9 @@ require (
 	github.com/mattn/go-colorable v0.1.6 // indirect
 	github.com/mattn/go-isatty v0.0.12 // indirect
 	go.uber.org/atomic v1.7.0 // indirect
+	golang.org/x/lint v0.0.0-20210508222113-6edffad5e616 // indirect
 	golang.org/x/sys v0.0.0-20220317061510-51cd9980dadf // indirect
+	golang.org/x/tools v0.1.10 // indirect
 	gopkg.in/alexcesaro/quotedprintable.v3 v3.0.0-20150716171945-2caba252f4dc // indirect
 	gopkg.in/mail.v2 v2.3.1 // indirect
 )
