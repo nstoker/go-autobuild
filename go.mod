@@ -1,6 +1,6 @@
 module github.com/nstoker/go-autobuild
 
-go 1.18
+go 1.23.0
 
 replace (
 	github.com/coreos/bbolt => go.etcd.io/bbolt v1.3.5
@@ -15,7 +15,7 @@ require (
 	github.com/golang-migrate/migrate/v4 v4.15.2
 	github.com/gorilla/sessions v1.2.1
 	github.com/jmoiron/sqlx v1.3.5
-	github.com/justinas/nosurf v1.1.1
+	github.com/justinas/nosurf v1.2.0
 	github.com/lib/pq v1.10.0
 	golang.org/x/crypto v0.35.0
 	golang.org/x/exp v0.0.0-20220518171630-0b5c67f07fdf
